@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/python:3.7
 
-    working_directory: ~/PYTHON_TEST/.circleci
+    working_directory: ~/PYTHON_TEST
 
     steps:
       # Step 1: obtain repo from GitHub
@@ -12,14 +12,11 @@ jobs:
       # Step 2: create virtual env and install dependencies
       - run:
           name: install dependencies
-          command: | 
-            sudo pip install pipenv
+          command: |  
             pipenv install 
             
       # Step 3: run linter and tests
       - run:
           name: run tests
-          command: | 
-            pip install flake8 pytest pytest-cov
-            flake8 --exclude=venv* --statistics
+          command: |  
             pytest -v --cov=calculator
