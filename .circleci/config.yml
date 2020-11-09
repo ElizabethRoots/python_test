@@ -11,6 +11,5 @@ jobs:
       # Step 2: create virtual env and install dependencies
       - run:
           name: run tests
-          command: |
-            flake8 --exclude=venv* --statistics
+          command: | 
             pytest -v --cov=calculator
