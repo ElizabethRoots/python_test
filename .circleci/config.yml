@@ -13,7 +13,7 @@ jobs:
       - run:
           name: install dependencies
           command: |   
-            python3 -m pytest
+            pytest -p pytest_cov
             python3 -m venv venv 
       # Step 3: run linter and tests
       - run:
