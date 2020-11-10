@@ -72,6 +72,7 @@ idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 imageio @ file:///tmp/build/80754af9/imageio_1594161405741/work
 imagesize==1.2.0
 importlib-metadata @ file:///opt/concourse/worker/volumes/live/290b74d5-e5f3-47ff-7257-17b3c9ccecab/volume/importlib-metadata_1593446478206/work
+iniconfig==1.1.1
 intervaltree @ file:///tmp/build/80754af9/intervaltree_1594361675072/work
 ipykernel @ file:///opt/concourse/worker/volumes/live/cb5649db-6f30-435c-6981-1014aa39f028/volume/ipykernel_1594755378873/work/dist/ipykernel-5.3.2-py3-none-any.whl
 ipython @ file:///opt/concourse/worker/volumes/live/41e43e2f-bbbe-4c76-44fb-a6de0e826dd8/volume/ipython_1593447396701/work
@@ -136,6 +137,7 @@ pep8==1.7.1
 pexpect @ file:///opt/concourse/worker/volumes/live/8701bb20-ad87-46c7-5108-30c178cf97e5/volume/pexpect_1594383388344/work
 pickleshare @ file:///opt/concourse/worker/volumes/live/93ec39d8-05bb-4f84-7efc-98735bc39b70/volume/pickleshare_1594384101884/work
 Pillow @ file:///opt/concourse/worker/volumes/live/be1e8a56-c4be-4ffe-4fa7-5a0e9c460b1a/volume/pillow_1594307312933/work
+pipenv==2020.11.4
 pkginfo==1.5.0.1
 pluggy==0.13.1
 ply==3.11
@@ -274,7 +276,7 @@ PyQt5-sip==12.8.1
 PyQtWebEngine==5.12.1
 pyrsistent==0.16.0
 PySocks @ file:///opt/concourse/worker/volumes/live/85a5b906-0e08-41d9-6f59-084cee4e9492/volume/pysocks_1594394636991/work
-pytest==5.4.3
+pytest==6.1.2
 pytest-cov==2.10.1
 python-dateutil==2.8.1
 python-jsonrpc-server @ file:///tmp/build/80754af9/python-jsonrpc-server_1594397536060/work
@@ -332,6 +334,7 @@ ujson==1.35
 unicodecsv==0.14.1
 urllib3==1.25.9
 virtualenv==20.1.0
+virtualenv-clone==0.5.4
 watchdog @ file:///opt/concourse/worker/volumes/live/cc0ee7bb-1065-44c4-5867-0fd5d13729e0/volume/watchdog_1593447373245/work
 wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
 webencodings==0.5.1
