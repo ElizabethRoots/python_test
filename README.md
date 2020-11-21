@@ -11,3 +11,6 @@ python run calculator.py test
 brew install pipenv
 
 pip3 install pylint
+
+Run this command to see local test coverage
+<code>pytest -v --cov</code>
