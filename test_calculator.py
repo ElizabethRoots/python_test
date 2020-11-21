@@ -4,7 +4,6 @@ Unit tests for the calculator library
 
 import calculator
 
-
 class TestCalculator:
 
     def test_addition(self):
