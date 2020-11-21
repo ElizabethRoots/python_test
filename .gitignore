@@ -4,8 +4,7 @@ pytest-env
 
 # Byte-compiled / optimized / DLL files
 __pycache__
-Pipfile
-.circleci 
+Pipfile 
 
 # Unit test / coverage reports
 .coverage
