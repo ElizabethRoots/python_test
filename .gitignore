@@ -1,6 +1,13 @@
+# Environments
 venv
+pytest-env
+
+# Byte-compiled / optimized / DLL files
 __pycache__
-.pytest_cache
-.coverage
 Pipfile
-.pytest-env
+.circleci 
+
+# Unit test / coverage reports
+.coverage
+.pytest_cache 
+__pycache__
