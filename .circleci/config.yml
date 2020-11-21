@@ -4,7 +4,7 @@ jobs:
     docker:
       - image: circleci/python:3.7
 
-    working_directory: ~/PYTHON_TEST
+    working_directory: ~/repo
 
     steps:
       # Step 1: obtain repo from GitHub
@@ -12,21 +12,14 @@ jobs:
       # Step 2: create virtual env and install dependencies
       - run:
           name: install dependencies
-          command: |   
+          command: |
             python3 -m venv venv
-            pip install --upgrade pip
             . venv/bin/activate
-          # pip install -r ./requirements.txt
-      - save_cache:
-          key: deps1-{{ .Branch }}-{{ checksum "./requirements.txt" }}
-          paths:
-            - "venv"
+            pip install -r requirements.txt
+      # Step 3: run linter and tests
       - run:
+          name: run tests
           command: |
             . venv/bin/activate
-            python calculator.py test
-      # Step 3: run linter and tests  
-      # - run:
-      #     name: run tests
-      #     command: |   pytest -v --cov=calculator
-      
+            flake8 --exclude=venv* --statistics
+            pytest -v --cov=calculator
