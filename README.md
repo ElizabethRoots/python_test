@@ -12,5 +12,10 @@ brew install pipenv
 
 pip3 install pylint
 
+### Running Tests Locally
 Run this command to see local test coverage
 <code>pytest -v --cov</code>
+
+or 
+
+<code>python -m unittest test_calculator.py -v</code>
