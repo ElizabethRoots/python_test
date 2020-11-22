@@ -2,11 +2,11 @@
 Unit tests for the calculator library
 """
 
-
+import unittest
 import calculator
 
+class TestStringMethods(unittest.TestCase):
 
-class TestCalculator:
 
     def test_addition(self):
         assert 4 == calculator.add(2, 2)
