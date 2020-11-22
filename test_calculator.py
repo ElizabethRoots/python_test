@@ -8,10 +8,9 @@ import calculator
 
 class TestStringMethods(unittest.TestCase):
 
-
     def test_addition(self):
         a = 2
-        b = 2 
+        b = 2
         self.assertEqual(calculator.add(a, b), 4)
 
     def test_subtraction(self):
