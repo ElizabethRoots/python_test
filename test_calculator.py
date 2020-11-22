@@ -4,7 +4,7 @@ Unit tests for the calculator library
 
 import unittest
 import calculator
- 
+
 
 class TestStringMethods(unittest.TestCase):
 
@@ -18,12 +18,12 @@ class TestStringMethods(unittest.TestCase):
         c = 4
         d = 2
         self.assertEqual(calculator.subtract(c, d), 2)
-    
+
     def test_multiplcation(self):
         e = 5
         f = 2
         self.assertEqual(calculator.multiply(e, f), 10)
-    
+
     def test_divide(self):
         g = 5
         h = 2
