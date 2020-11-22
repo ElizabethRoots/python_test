@@ -7,5 +7,13 @@ def add(a, b):
     return a + b
 
 
-def subtract(first_term, second_term):
-    return first_term - second_term
+def subtract(c, d):
+    return c - d
+
+
+def multiply(e, f):
+    return e * f
+
+
+def divide(g, h):
+    return round(g / h)
